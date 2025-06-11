@@ -4,10 +4,10 @@ Extracted text has been saved to ./output-Large Language Models explained briefl
 Review the results of splitting the long text into several short texts.
 
 
-========== The 1-st segment of the split (505 words) ==========
+========== The 1-st segment of the split (508 words) ==========
 
 
- 英文的學習方法  One of the things I find fascinating about quantum mechanics is how it
+ One of the things I find fascinating about quantum mechanics is how it
 
 completely changes the fields of classical information theory and classical
 
@@ -17,48 +17,48 @@ computer in many, many fewer steps than you can solve on a classical computer.
 
 One of these is the factoring algorithm, which can be solved in roughly n-cubed
 
-time on the quantum computer, where n is the number of bits in the number you
+time on a quantum computer, where n is the number of bits in the number you want
 
-want to factor, but it takes an
-
-
-========== The 2-nd segment of the split (508 words) ==========
+to factor, but it takes an exponentially
 
 
-exponentially long time on a classical computer.  So, how does a quantum
+========== The 2-nd segment of the split (511 words) ==========
 
-computer work?  Well, it's essentially a physics experiment. Instead of bits,
 
-which can either be 0 or 1, and that live in a classical computer, a quantum
+long time on a classical computer.  So how does a quantum computer work? Well,
 
-computer runs on qubits, which are two-level quantum systems, which can either
+it's essentially a physics experiment.  Instead of bits, which can either be 0
 
-be 0 or 1, or some superposition of 0 or 1, and they also can be entangled and
+or 1, and that live in a classical computer, a quantum computer runs on qubits,
 
-can interfere with each other and have all the properties of quantum systems.
+which are two-level quantum systems, which can either be 0 or 1, or some
 
-So, the way the quantum factoring algorithm
+superposition of 0 or 1.  And they also can be entangled and can interfere with
+
+each other and have all the properties of quantum systems.  So the way the
+
+quantum factoring algorithm works is you take
 
 
 ========== The 3-rd segment of the split (509 words) ==========
 
 
-works is you take the number you want to factor, and you can turn, using number
+the number you want to factor and you can turn, using number theory, the problem
 
-theory, the problem into a problem of finding the period of a really long
+into a problem of finding the period of a really long sequence.  And then you
 
-sequence.  And then, you use the quantum computer as a computational
+use the quantum computer as a computational interferometer.  So if you shine
 
-interferometer. So, if you shine light through a diffraction grating, it gives
+light through a diffraction grating, it gives you a pattern which tells you the
 
-you a pattern which tells you the spacing of the grating.  So, we have a
+spacing of the grating.  So we have a periodic pattern, and we put the
 
-periodic pattern, and we put the information through a computational
+information through a computational interferometer, which gives you the period.
 
-interferometer, which gives you the period. And once you have the
-
-
-========== The 4-th segment of the split (79 words) ==========
+And once you have the period, you can use
 
 
-period, you can use number theory on a classical computer to factor the number.
+========== The 4-th segment of the split (59 words) ==========
+
+
+number theory on a classical computer to factor the number.
