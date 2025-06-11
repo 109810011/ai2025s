@@ -1,0 +1,64 @@
+Extracted text has been saved to ./output-Large Language Models explained briefly.txt.
+
+
+Review the results of splitting the long text into several short texts.
+
+
+========== The 1-st segment of the split (505 words) ==========
+
+
+ 英文的學習方法  One of the things I find fascinating about quantum mechanics is how it
+
+completely changes the fields of classical information theory and classical
+
+computation.  For instance, there are problems that you can solve on a quantum
+
+computer in many, many fewer steps than you can solve on a classical computer.
+
+One of these is the factoring algorithm, which can be solved in roughly n-cubed
+
+time on the quantum computer, where n is the number of bits in the number you
+
+want to factor, but it takes an
+
+
+========== The 2-nd segment of the split (508 words) ==========
+
+
+exponentially long time on a classical computer.  So, how does a quantum
+
+computer work?  Well, it's essentially a physics experiment. Instead of bits,
+
+which can either be 0 or 1, and that live in a classical computer, a quantum
+
+computer runs on qubits, which are two-level quantum systems, which can either
+
+be 0 or 1, or some superposition of 0 or 1, and they also can be entangled and
+
+can interfere with each other and have all the properties of quantum systems.
+
+So, the way the quantum factoring algorithm
+
+
+========== The 3-rd segment of the split (509 words) ==========
+
+
+works is you take the number you want to factor, and you can turn, using number
+
+theory, the problem into a problem of finding the period of a really long
+
+sequence.  And then, you use the quantum computer as a computational
+
+interferometer. So, if you shine light through a diffraction grating, it gives
+
+you a pattern which tells you the spacing of the grating.  So, we have a
+
+periodic pattern, and we put the information through a computational
+
+interferometer, which gives you the period. And once you have the
+
+
+========== The 4-th segment of the split (79 words) ==========
+
+
+period, you can use number theory on a classical computer to factor the number.
