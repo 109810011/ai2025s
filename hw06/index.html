@@ -154,7 +154,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      其實我是想做成霍爾的移動城堡的霍爾換衣服的動態，但看起來很像是模特，看來提示詞需要再修改才可以達到想要的效果，但看起來也還不錯!如果可以長得和原版更相似就好了
+      我本來是預期生成出一個穿著寬鬆的人在和一隻狗狗玩，然後摸他的頭的影片，結果生成出來的是一個穿著浴袍一直摸自己肚子的人，然後狗狗從突然憑空長出來，只能想像成他從門縫溜出來了，不然超怪。感覺這個的效果還不夠好，或者是我的提示詞設計得不好，總之這個好像比文生圖效果差不少。
   </div>
 
   <!-- ------------------------------------------------>
@@ -205,7 +205,7 @@
         
        Simple baseline - Comfy UI 環境設定完成
         
-        <img src="Comfy UI.png" width="100%"/>
+        <img src="ComfyUI.png" width="100%"/>
       </figure>
       </div>
     </div>
@@ -216,19 +216,22 @@
     <div class="col-md-12 twenty">
       <figure>
         <figcaption>Medium baseline - 生成角色的圖片</figcaption>
-        <img src="霍爾圖.png" width="100%"/>
-        使用提示詞: ""0" :" (solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
-        "10" :"detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
-        "20" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
-        "30" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
-        "40" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
-        "50" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
-        "60" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
-        "70" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
-        "80" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
-        "90" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
-        "100" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
-        "110" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        <img src="AnimateDiff.png" width="100%"/>
+        使用提示詞: 
+        {
+          "0": "(solo), 1boy, relaxed, loose japanese clothes, petting dog, medium hair, gentle smile, street, morning, soft light",
+          "10": "1boy, loose yukata, petting dog's head, short hair, happy expression, dog wagging tail, street, morning, soft shadows",
+          "20": "(solo), 1boy, traditional japanese outfit, gently touching dog's head, medium-length hair, smiling eyes, dog sitting, sunlight",
+          "30": "1boy, traditional robes, crouching, hand on dog's head, short black hair, content face, dog looking up, sunny day, quiet street",
+          "40": "1boy, loose kimono, petting dog, hand motion blur, bangs, soft expression, dog tail wagging, trees in background, bright day",
+          "50": "(solo), 1boy, flowing clothes, petting fluffy dog, bangs moving in breeze, smiling gently, dog licking hand, nature background",
+          "60": "1boy, relaxed kimono, crouched down, patting dog's head, dog happy, green plants nearby, warm atmosphere",
+          "70": "(solo), 1boy, simple japanese clothes, hand on dog, soft face, traditional street background, dog sitting quietly",
+          "80": "1boy, petting dog softly, loose clothes swaying, gentle look, trees and fence in background, soft sun",
+          "90": "1boy, petting dog, loose yukata, wind movement in clothes, dog yawning, natural background, slightly cloudy sky",
+          "100": "(solo), 1boy, traditional clothes, hand still on dog's head, eyes closed smiling, peaceful moment, calm morning light",
+          "110": "1boy, petting dog's head, loose kimono outfit, both eyes closed, dog rubbing against hand, quiet street, harmony"
+        }
       </figure>
     </div>
   </div>
@@ -240,7 +243,7 @@
         <figcaption> 文生影片</figcaption>
       </figure>
       <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="Howls.mp4" type="video/mp4">
+        <source src="AnimateDiff.mp4" type="video/mp4">
       </video>
     </div>
   </div>
